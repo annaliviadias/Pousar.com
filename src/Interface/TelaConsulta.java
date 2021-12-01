@@ -416,7 +416,7 @@ public class TelaConsulta extends javax.swing.JFrame {
             }
         });
     }
-
+              
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField ConsultaBairro;
     private javax.swing.JFormattedTextField ConsultaCPF;
