@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" pref="612" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btnVoltar9" min="-2" pref="51" max="-2" attributes="0"/>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="263" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="29" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnVoltar9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Impact" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="66" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="POL&#xcd;TICAS DE PRIVACIDADE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnVoltar9">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/voltar.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVoltar9ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="  Nosso Compromisso com a sua Privacidade &#xa;&#xa;  Aqui na Decolar estamos realmente empenhados em proteger&#xa;  a sua privacidade, garantindo que seus dados pessoais ser&#xe3;o&#xa;  tratados de acordo com a lei brasileira e com as melhores &#xa;  pr&#xe1;ticas de mercado. Somos transparentes em rela&#xe7;&#xe3;o &#xe0;s &#xa;  nossas pr&#xe1;ticas e estamos &#xe0; disposi&#xe7;&#xe3;o para conversar a &#xa;  respeito sempre que voc&#xea; quiser. Por isso, veja abaixo alguns&#xa;  dos princ&#xed;pios que orientam a forma pela qual a Decolar trata&#xa;  seus dados pessoais: &#xa;&#xa;  &#x25cf;Toda a coleta e tratamento de dados pessoais ser&#xe1; realizada &#xa;  de acordo com essa Pol&#xed;tica de Privacidade e para cumprir as &#xa;  finalidades aqui especificadas. &#xa;&#xa;  &#x25cf;Seus dados n&#xe3;o ser&#xe3;o transferidos, vendidos, alugados ou &#xa;  divulgados de forma diferente do que indicamos nessa Pol&#xed;tica &#xa;  de Privacidade. &#xa;&#xa;  &#x25cf;Quando algum dado pessoal deixar de ser necess&#xe1;rio e n&#xe3;o&#xa;   tivermos a obriga&#xe7;&#xe3;o legal de armazen&#xe1;-lo, nossa inten&#xe7;&#xe3;o &#xe9; &#xa;  exclu&#xed;-lo, destru&#xed;-lo ou anonimiz&#xe1;-lo. &#xa;&#xa;  &#x25cf;Nossa inten&#xe7;&#xe3;o &#xe9; coletar a menor quantidade poss&#xed;vel de &#xa;  dados pessoais &#x2013; realmente s&#xf3; pretendemos coletar os dados &#xa;  que forem necess&#xe1;rios para atender &#xe0;s finalidades aqui &#xa;  descritas.&#xa;&#xa;&#xa;  Seus Direitos &#xa;&#xa;  A legisla&#xe7;&#xe3;o brasileira te concede uma s&#xe9;rie de direitos em &#xa;  rela&#xe7;&#xe3;o aos seus dados pessoais e voc&#xea; poder&#xe1; exerc&#xea;-los &#xa;  conforme descrito nesta Pol&#xed;tica. Veja abaixo seus principais &#xa;  direitos relacionados aos seus dados pessoais: &#xa;&#xa;  &#x25cf;Questionar se seus dados pessoais s&#xe3;o objeto de &#xa;  tratamento pela Decolar. &#xa;&#xa;  &#x25cf;Obter informa&#xe7;&#xf5;es acerca da forma de tratamento dos seus&#xa;  dados pessoais. &#xa;&#xa;  &#x25cf;Corre&#xe7;&#xe3;o de dados incompletos, inexatos ou desatualizados.&#xa; &#xa;  &#x25cf;Anonimiza&#xe7;&#xe3;o, bloqueio ou elimina&#xe7;&#xe3;o dos dados pessoais &#xa;  que forem desnecess&#xe1;rios, excessivos ou que estejam sendo&#xa;   tratados em desconformidade com a lei. &#xa;&#xa;  &#x25cf;Pedir a elimina&#xe7;&#xe3;o de seus dados pessoais, que tenham &#xa;  sido tratados a partir de consentimento dado por voc&#xea;&#xa;  anteriormente.&#xa; &#xa;  &#x25cf;Saber quais entidades p&#xfa;blicas e privadas t&#xea;m acesso aos &#xa;  dados por decis&#xe3;o da Decolar. &#xa;&#xa;  &#x25cf;N&#xe3;o fornecer consentimento para o tratamento dos seus &#xa;  dados e ser informado das consequ&#xea;ncias dessa recusa. &#xa;&#xa;  &#x25cf;Revogar o consentimento, a qualquer tempo, para coleta de &#xa;  novos dados pessoais. Solicitar a revis&#xe3;o de decis&#xf5;es tomadas&#xa;  unicamente com base em tratamento automatizado de dados&#xa;  pessoais que, por exemplo, determinem seu perfil pessoal, &#xa;  profissional, de consumo, ou de cr&#xe9;dito."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" pref="612" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btnVoltar9" min="-2" pref="51" max="-2" attributes="0"/>
+                      <EmptySpace pref="131" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="159" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="29" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnVoltar9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Impact" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="66" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="TERMO DE USO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnVoltar9">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/voltar.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVoltar9ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="  &#x25cf;POUSAR.COM &#xe9; uma ag&#xea;ncia de viagens on-line, cuja &#xa;  plataforma tecnol&#xf3;gica permite a uma grande quantidade de &#xa;  prestadores de servi&#xe7;os tur&#xed;sticos (o(s) &#x201c;Fornecedor(es)&#x201d;) &#xa;  oferecer e comercializar seus servi&#xe7;os aos usu&#xe1;rios, que, por &#xa;  sua vez, podem procurar informa&#xe7;&#xf5;es sobre vendas de &#xa;  passagens, passeios, viagens e excurs&#xf5;es, nas &#xa;  modalidades a&#xe9;rea, aquavi&#xe1;ria, terrestre, ferrovi&#xe1;ria e &#xa;  conjugadas, assessoramento, planejamento e organiza&#xe7;&#xe3;o &#xa;  de atividades  associadas &#xe0;  execu&#xe7;&#xe3;o de viagens tur&#xed;sticas &#xa;  ou excurs&#xf5;es,  bem como a organiza&#xe7;&#xe3;o de programas, &#xa;  servi&#xe7;os, roteiros e itiner&#xe1;rios de viagens, individuais ou em &#xa;  grupo, organiza&#xe7;&#xe3;o de programas e servi&#xe7;os relativos a &#xa;  viagens educacionais ou culturais e demais servi&#xe7;os&#xa;  tur&#xed;sticos (o(s) &#x201c;Servi&#xe7;o(s) Tur&#xed;stico(s)&#x201d;), comparar e reservar&#xa;  as referidas ofertas em tempo real, e adquiri-las  &#xa;  separadamente ou em conjunto, montando e gerenciando&#xa;  sua  pr&#xf3;pria viagem, em conformidade com as suas &#xa;  necessidades  pessoais.&#xa;&#xa;  &#x25cf;POUSAR.COM n&#xe3;o &#xe9; o fornecedor dos Servi&#xe7;os Tur&#xed;sticos e &#xa;  atua como intermediadora dos produtos tur&#xed;sticos oferecidos &#xa;  pelos Fornecedores, n&#xe3;o sendo, portanto, obrigado, direta ou &#xa;  indiretamente, a executar o Servi&#xe7;o Tur&#xed;stico, tampouco &#xa;  respons&#xe1;vel por qualquer falha na presta&#xe7;&#xe3;o de servi&#xe7;os&#xa;  prestados pelos Fornecedores, ou quaisquer danos &#xa;  causados por culpa exclusiva dos Fornecedores. Quando &#xa;  voc&#xea; contrata Servi&#xe7;os Tur&#xed;sticos atrav&#xe9;s da POUSAR, est&#xe1;&#xa;  celebrando um contrato diretamente com o Fornecedor que&#xa;  oferece os seus Servi&#xe7;os Tur&#xed;sticos atrav&#xe9;s da nossa &#xa;  Plataforma.  A POUSAR atua como intermedi&#xe1;ria entre voc&#xea; &#xa;  e os Fornecedores de Servi&#xe7;os Tur&#xed;sticos.&#xa;&#xa;  &#x25cf;Ao contratar Servi&#xe7;os Tur&#xed;sticos atrav&#xe9;s da POUSAR, voc&#xea; &#xa;  garante que: (i) &#xe9; civilmente capaz; (ii) aceita expressamente &#xa;  os Termos e Condi&#xe7;&#xf5;es; (iii) s&#xf3; utiliza a Plataforma da &#xa;  POUSAR para reservar ou contratar Servi&#xe7;os Tur&#xed;sticos para&#xa;  voc&#xea; e/ou para outra pessoa em nome da qual voc&#xea; tenha&#xa;  autoriza&#xe7;&#xe3;o para atuar; e (iv) toda informa&#xe7;&#xe3;o que voc&#xea; &#xa;  fornece &#xe0; POUSAR &#xe9; ver&#xed;dica, exata, atual e completa."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
